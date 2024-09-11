@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-au">
+    <head>
+        <meta charset="utf-8">
+        <title>Home</title>
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+    </head>
+    <body>
+        <div class="topnav">
+            <a href="#home" class="active">Home</a>
+            <a href="#news">News</a>
+            <a href="contact.html">Contact Us</a>
+            <div class="dropdown">
+                <button class="dropbtn">Events
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">One</a>
+                    <a href="#">Two</a>
+                    <a href="#">Three</a>
+                </div>
+            </div>
+            <a href="about.html">About Us</a>
+            <a href="javascript:void(0);" style="font-size: 15px;" class="icon" onclick="testFunc()">&#9812;</a>
+        </div>
+        <h1>Home</h1>
+        <h2>Media</h2>
+        <hr>
+        <h3>Video</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/4XpnKHJAok8?si=kZpgoN0ke7xC9Lsw" title="YouTube video player" 
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <hr>
+        <h3>Sound</h3>
+        <audio controls loop>
+            <source src="#">
+        </audio>
+        <hr>
+        <h3>Forms Test</h3>
+        <p>Did you like this video?</p>
+        <form action="success.html" method="post">
+            <label>Name:
+                <input name="name">
+            </label><br>
+            <label>Email:
+                <input name="email">
+            </label><br>
+            <label>Password:
+                <input name="password" type="password">
+            </label><br>
+            <label>Search:
+                <input name="search" type="search">
+            </label><br>
+            <label>Phone Number:
+                <input name="phone" type="tel">
+            </label><br>
+            <label>Message:
+                <textarea name="message" cols="24" rows="6"></textarea>
+            </label><br>
+            <label>Colour:
+                <input name="color" type="color">
+            </label><br>
+            <label>File:
+                <input name="file" type="file">
+            </label><br>
+            <label>Date:
+                <input name="date" type="date">
+            </label><br>
+            <button name="submit">Submit</button>
+        </form>
+        <hr>
+        <footer>
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="legal.html">Legal</a>
+        </footer>
+    </body>
+</html>
